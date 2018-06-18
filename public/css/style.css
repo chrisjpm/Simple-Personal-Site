@@ -1,0 +1,22 @@
+.card-link a:hover {
+  color: rgb(163, 129, 70);
+}
+.card-link .uk-button-text::before {
+  border-bottom-color: rgb(163, 129, 70) !important;
+}
+.card-link-coloured {
+  color: rgb(163, 129, 70) !important;
+}
+i.icon-l {
+  font-size: 2.2rem;
+}
+.uk-link:hover, a:hover {
+  text-decoration: none !important;
+}
+a.default-link, a.default-link:hover {
+  color: #666;
+}
+.icon-middle svg {
+  position: relative;
+  margin-top: -7px;
+}
