@@ -1,5 +1,8 @@
 .card-link a:hover {
-  color: rgb(163, 129, 70);
+  color: rgb(163, 129, 70) !important;
+}
+.uk-accordion-title::after {
+  color: rgb(163, 129, 70) !important;
 }
 .card-link .uk-button-text::before {
   border-bottom-color: rgb(163, 129, 70) !important;
@@ -19,4 +22,10 @@ a.default-link, a.default-link:hover {
 .icon-middle svg {
   position: relative;
   margin-top: -7px;
+}
+.uk-accordion-title {
+  display: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
 }
