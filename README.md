@@ -1,2 +1,1 @@
-# cpuved.github.io
-Hosting stuff on github
+Simple site to use while I work on a more create portfolio
