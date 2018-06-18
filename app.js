@@ -37,10 +37,6 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-app.listen(process.env.PORT, '0.0.0.0', function(err) {
-  console.log("Started listening on %s", app.url);
-});
-
 if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
