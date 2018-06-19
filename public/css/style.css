@@ -1,3 +1,6 @@
+.card-link a {
+  color: #666;
+}
 .card-link a:hover {
   color: rgb(163, 129, 70) !important;
 }
@@ -7,7 +10,7 @@
 .card-link .uk-button-text::before {
   border-bottom-color: rgb(163, 129, 70) !important;
 }
-.card-link-coloured {
+.coloured-link {
   color: rgb(163, 129, 70) !important;
 }
 i.icon-l {
@@ -15,9 +18,6 @@ i.icon-l {
 }
 .uk-link:hover, a:hover {
   text-decoration: none !important;
-}
-a.default-link, a.default-link:hover {
-  color: #666;
 }
 .icon-middle svg {
   position: relative;

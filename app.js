@@ -5,6 +5,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
+// var githubhook = require('githubhook');
 
 var index = require('./routes/index');
 
@@ -54,6 +55,19 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
+
+// var github = githubhook({
+//   host: "localhost" || "https://chrisjpm-app.herokuapp.com" || "http://chrisjpm.gq",
+//   port: port,
+//   path: "/payload",
+//   secret: "yoink"
+// });
+//
+// github.on('push', function (repo, ref, data) {
+//
+// });
+//
+// github.listen();
 
 server.listen(port);
 module.exports = app;
