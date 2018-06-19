@@ -29,3 +29,21 @@ i.icon-l {
   line-height: inherit !important;
   color: inherit !important;
 }
+.section-blue {
+  background-color: #6BA099;
+}
+.text-white {
+  color: #fff;
+}
+.text-lgrey {
+  color: #ebebeb !important;
+}
+.text-xl {
+  font-size: 3rem;
+}
+.material-icons.material-icons--outline {
+  font-family: 'Material Icons Outline';
+}
+.mono-font {
+  font-family: 'Space Mono', monospace;
+}
