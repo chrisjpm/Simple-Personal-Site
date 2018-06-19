@@ -47,3 +47,52 @@ i.icon-l {
 .mono-font {
   font-family: 'Space Mono', monospace;
 }
+.fullscreen {
+  height: 100vh;
+}
+.rounded-btn {
+  background: #6BA099;
+  background: -moz-linear-gradient(left, #6BA099 0%, #86c2ba 100%);
+  background: -webkit-linear-gradient(left, #6BA099 0%,#86c2ba 100%);
+  background: linear-gradient(to right, #6BA099 0%,#86c2ba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6BA099', endColorstr='#86c2ba',GradientType=1 );
+  color: #fff !important;
+  border: 1px solid transparent;
+  margin: 0;
+  border: none;
+  border-radius: 20px;
+  overflow: visible;
+  font: inherit;
+  text-transform: none;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 30px;
+  vertical-align: middle;
+  font-size: 0.875rem;
+  line-height: 38px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  -webkit-box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.11);
+  -moz-box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.11);
+  box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.11);
+  transition: .2s ease-in-out;
+}
+.rounded-btn:not(:disabled) {
+  cursor: pointer;
+}
+.rounded-btn:hover {
+  transform: scale(1.22);
+}
+.rounded-btn:active {
+  background: #95bdb7;
+  background: -moz-linear-gradient(left, #95bdb7 0%, #ade2db 100%);
+  background: -webkit-linear-gradient(left, #95bdb7 0%,#ade2db 100%);
+  background: linear-gradient(to right, #95bdb7 0%,#ade2db 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95bdb7', endColorstr='#ade2db',GradientType=1 );
+}
+.uk-placeholder:hover span, .uk-placeholder:hover i {
+  color: #6BA099;
+}
+/* rgb(163, 129, 70) */
