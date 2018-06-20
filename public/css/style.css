@@ -1,14 +1,20 @@
-.card-link a {
-  color: #666;
+/* .dark-link {
+  color: #333 !important;
 }
-.card-link a:hover {
-  color: rgb(163, 129, 70) !important;
+.dark-link a:hover {
+  color: #333 !important;
 }
-.uk-accordion-title::after {
-  color: rgb(163, 129, 70) !important;
+.dark-link .uk-button-text::before {
+  border-bottom-color: #333 !important;
+} */
+.link a {
+  color: #333;
 }
-.card-link .uk-button-text::before {
-  border-bottom-color: rgb(163, 129, 70) !important;
+.link a:hover {
+  color: rgb(163, 129, 70);
+}
+.link .uk-button-text::before {
+  border-bottom-color: rgb(163, 129, 70);
 }
 .coloured-link {
   color: rgb(163, 129, 70) !important;
@@ -95,4 +101,30 @@ i.icon-l {
 .uk-placeholder:hover span, .uk-placeholder:hover i {
   color: #6BA099;
 }
-/* rgb(163, 129, 70) */
+.container-l {
+  box-sizing: content-box;
+  /* 1 */
+  max-width: 1430px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-xl {
+  box-sizing: content-box;
+  /* 1 */
+  max-width: 1900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#section4 p{
+  width: 575px;
+}
+.background-orange {
+  background-color: rgb(219, 205, 181);
+}
+footer {
+  font-size: 1.2rem;
+}
