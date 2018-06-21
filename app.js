@@ -5,7 +5,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
-// var githubhook = require('githubhook');
+var diet = require('diet');
 
 var index = require('./routes/index');
 
