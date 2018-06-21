@@ -1,12 +1,6 @@
-/* .dark-link {
-  color: #333 !important;
+html {
+  overflow-x: hidden;
 }
-.dark-link a:hover {
-  color: #333 !important;
-}
-.dark-link .uk-button-text::before {
-  border-bottom-color: #333 !important;
-} */
 .link a {
   color: #333;
 }
@@ -54,7 +48,7 @@ i.icon-l {
   font-family: 'Space Mono', monospace;
 }
 .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 }
 .rounded-btn {
   background: #6BA099;
@@ -103,15 +97,6 @@ i.icon-l {
 .uk-placeholder:hover span, .uk-placeholder:hover i {
   color: #6BA099;
 }
-.container-l {
-  box-sizing: content-box;
-  /* 1 */
-  max-width: 1430px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .container-xl {
   box-sizing: content-box;
   /* 1 */
@@ -148,4 +133,34 @@ footer {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(163, 129, 70);
+}
+
+@media only screen and (max-width: 1661px) {
+  #section3 div div div h4 {
+    height: 55px;
+  }
+  #section3 div div div p {
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  #section3 div div div h4 {
+    height: 55px;
+  }
+  #section3 div div div p {
+    height: 190px;
+  }
+  #section4 {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 905px) {
+  #section3 div div div h4 {
+    height: 70px;
+  }
+  #section3 div div div p {
+    height: 200px;
+  }
 }
