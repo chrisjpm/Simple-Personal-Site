@@ -17,7 +17,7 @@
     "express-hbs": "^1.0.4",
     "githubhook": "^1.9.3",
     "http": "0.0.0",
-    "morgan": "^1.9.0",
+    "morgan": "^1.9.1",
     "path": "^0.12.7"
   },
   "author": "Chris Perceval-Maxwell"
